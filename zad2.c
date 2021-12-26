@@ -35,13 +35,11 @@ int main(int argc, char **argv)
          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 
-    // MPI Standard variable
     int num_procs;
     int ID, j;
     int iters = 0;
     int num_iterations;
 
-    // Setup number of iterations
     if (argc == 1)
     {
         num_iterations = DEFAULT_ITERATIONS;
